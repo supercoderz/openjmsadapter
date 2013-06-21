@@ -1,0 +1,9 @@
+#
+# $HeadURL: file:///nfs/sf-svn/o/op/openjmsadapter/code/openjmsadapter/test/test_jms_config.yml $
+# $Revision: 21 $
+# $Date: 2010-01-02 13:35:09 +0000 (Sat, 02 Jan 2010) $
+#
+--- !com.openjmsadapter.testutil.TestJMSConfig
+JMSConnectionUrl: tcp://localhost:61613
+JMSConnectionUser: system
+JMSConnectionPassword: manager

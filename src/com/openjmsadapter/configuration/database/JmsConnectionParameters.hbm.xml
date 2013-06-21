@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.openjmsadapter.configuration.database">
+  <class name="JmsConnectionParameters" table="jms_connection_parameters">
+    <id column="id" name="id">
+      <generator class="increment"/>
+    </id>
+    <property column="url" name="url"/>
+    <property column="username" name="username"/>
+    <property column="password" name="password"/>
+  </class>
+</hibernate-mapping>

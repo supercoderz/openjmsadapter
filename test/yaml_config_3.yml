@@ -1,0 +1,17 @@
+--- 
+JMSConnectionPassword: admin
+JMSConnectionUrl: "mq://localHost:7676/jms"
+JMSConnectionUser: admin
+destinations: 
+  - 
+    destinantionName: test.queue
+    destinationType: queue
+    lastSequenceReceived: 15755
+    lastSequenceSent: -1
+    operationType: receive
+  - 
+    destinantionName: test.topic
+    destinationType: topic
+    lastSequenceReceived: 15755
+    lastSequenceSent: -1
+    operationType: receive

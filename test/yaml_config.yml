@@ -1,0 +1,17 @@
+--- 
+JMSConnectionPassword: manager
+JMSConnectionUrl: "tcp://localhost:61613"
+JMSConnectionUser: system
+destinations: 
+  - 
+    destinantionName: test.queue
+    destinationType: queue
+    lastSequenceReceived: -1
+    lastSequenceSent: 15820
+    operationType: publish
+  - 
+    destinantionName: test.topic
+    destinationType: topic
+    lastSequenceReceived: -1
+    lastSequenceSent: 15710
+    operationType: publish
